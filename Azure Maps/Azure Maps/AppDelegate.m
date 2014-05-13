@@ -15,18 +15,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    UserService *userService = [UserService sharedService];
-    [userService autoLoginWithCompletion:^(MSUser *user, NSError *error) {
-        if (error) {
-            NSLog(@"Auto login failed");
-        } else {
-            MAKRAzureMapsService *mapsService = [MAKRAzureMapsService sharedService];
-            mapsService.client.currentUser = user;
-
-            NSLog(@"Auto login succeeded");
-        }
-    }];
-
     return YES;
 }
 

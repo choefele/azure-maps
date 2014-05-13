@@ -103,6 +103,7 @@
         MSUser *user = mapsService.client.currentUser;
 
         CLLocation *location = self.locationManager.location;
+        NSLog(@"Location: %@", location);
         NSDictionary *item = @{MAKRAzureMapsItemKeyUserID: user.userId,
                                MAKRAzureMapsItemKeyTitle: title,
                                MAKRAzureMapsItemKeyLatitude: @(location.coordinate.latitude),
@@ -136,7 +137,7 @@
                 
                 [mapsService updateItem:self.item atIndex:self.itemIndex completion:^{
                     [self.navigationController popToRootViewControllerAnimated:YES];
-                    [[NSNotificationCenter defaultCenter] postNotificationName:@"refreshBlobd" object:mutableItem];
+                    [[NSNotificationCenter defaultCenter] postNotificationName:MAKRAzureMapsDidUpdateItemsNotification object:mutableItem];
                 }];
             }
         }];
