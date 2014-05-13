@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62CBFC2019220B8E00808570 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CBFC1F19220B8E00808570 /* Foundation.framework */; };
+		62CBFC2219220B8E00808570 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CBFC2119220B8E00808570 /* CoreGraphics.framework */; };
+		62CBFC2419220B8E00808570 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CBFC2319220B8E00808570 /* UIKit.framework */; };
+		62CBFC2A19220B8E00808570 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62CBFC2819220B8E00808570 /* InfoPlist.strings */; };
+		62CBFC2C19220B8E00808570 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBFC2B19220B8E00808570 /* main.m */; };
+		62CBFC3019220B8E00808570 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBFC2F19220B8E00808570 /* AppDelegate.m */; };
+		62CBFC3319220B8E00808570 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62CBFC3119220B8E00808570 /* Main_iPhone.storyboard */; };
+		62CBFC3619220B8E00808570 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62CBFC3419220B8E00808570 /* Main_iPad.storyboard */; };
+		62CBFC3919220B8E00808570 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBFC3819220B8E00808570 /* ViewController.m */; };
+		62CBFC3B19220B8E00808570 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62CBFC3A19220B8E00808570 /* Images.xcassets */; };
+		62CBFC4219220B8E00808570 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CBFC4119220B8E00808570 /* XCTest.framework */; };
+		62CBFC4319220B8E00808570 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CBFC1F19220B8E00808570 /* Foundation.framework */; };
+		62CBFC4419220B8E00808570 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CBFC2319220B8E00808570 /* UIKit.framework */; };
+		62CBFC4C19220B8E00808570 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62CBFC4A19220B8E00808570 /* InfoPlist.strings */; };
+		62CBFC4E19220B8E00808570 /* Azure_MapsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBFC4D19220B8E00808570 /* Azure_MapsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62CBFC4519220B8E00808570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62CBFC1419220B8D00808570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62CBFC1B19220B8E00808570;
+			remoteInfo = "Azure Maps";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62CBFC1C19220B8E00808570 /* Azure Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Azure Maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62CBFC1F19220B8E00808570 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62CBFC2119220B8E00808570 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62CBFC2319220B8E00808570 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62CBFC2719220B8E00808570 /* Azure Maps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Azure Maps-Info.plist"; sourceTree = "<group>"; };
+		62CBFC2919220B8E00808570 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62CBFC2B19220B8E00808570 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62CBFC2D19220B8E00808570 /* Azure Maps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Azure Maps-Prefix.pch"; sourceTree = "<group>"; };
+		62CBFC2E19220B8E00808570 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62CBFC2F19220B8E00808570 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62CBFC3219220B8E00808570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		62CBFC3519220B8E00808570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		62CBFC3719220B8E00808570 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62CBFC3819220B8E00808570 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62CBFC3A19220B8E00808570 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		62CBFC4019220B8E00808570 /* Azure MapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Azure MapsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62CBFC4119220B8E00808570 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		62CBFC4919220B8E00808570 /* Azure MapsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Azure MapsTests-Info.plist"; sourceTree = "<group>"; };
+		62CBFC4B19220B8E00808570 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62CBFC4D19220B8E00808570 /* Azure_MapsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Azure_MapsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62CBFC1919220B8E00808570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CBFC2219220B8E00808570 /* CoreGraphics.framework in Frameworks */,
+				62CBFC2419220B8E00808570 /* UIKit.framework in Frameworks */,
+				62CBFC2019220B8E00808570 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62CBFC3D19220B8E00808570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CBFC4219220B8E00808570 /* XCTest.framework in Frameworks */,
+				62CBFC4419220B8E00808570 /* UIKit.framework in Frameworks */,
+				62CBFC4319220B8E00808570 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62CBFC1319220B8D00808570 = {
+			isa = PBXGroup;
+			children = (
+				62CBFC2519220B8E00808570 /* Azure Maps */,
+				62CBFC4719220B8E00808570 /* Azure MapsTests */,
+				62CBFC1E19220B8E00808570 /* Frameworks */,
+				62CBFC1D19220B8E00808570 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62CBFC1D19220B8E00808570 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62CBFC1C19220B8E00808570 /* Azure Maps.app */,
+				62CBFC4019220B8E00808570 /* Azure MapsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62CBFC1E19220B8E00808570 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62CBFC1F19220B8E00808570 /* Foundation.framework */,
+				62CBFC2119220B8E00808570 /* CoreGraphics.framework */,
+				62CBFC2319220B8E00808570 /* UIKit.framework */,
+				62CBFC4119220B8E00808570 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62CBFC2519220B8E00808570 /* Azure Maps */ = {
+			isa = PBXGroup;
+			children = (
+				62CBFC2E19220B8E00808570 /* AppDelegate.h */,
+				62CBFC2F19220B8E00808570 /* AppDelegate.m */,
+				62CBFC3119220B8E00808570 /* Main_iPhone.storyboard */,
+				62CBFC3419220B8E00808570 /* Main_iPad.storyboard */,
+				62CBFC3719220B8E00808570 /* ViewController.h */,
+				62CBFC3819220B8E00808570 /* ViewController.m */,
+				62CBFC3A19220B8E00808570 /* Images.xcassets */,
+				62CBFC2619220B8E00808570 /* Supporting Files */,
+			);
+			path = "Azure Maps";
+			sourceTree = "<group>";
+		};
+		62CBFC2619220B8E00808570 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62CBFC2719220B8E00808570 /* Azure Maps-Info.plist */,
+				62CBFC2819220B8E00808570 /* InfoPlist.strings */,
+				62CBFC2B19220B8E00808570 /* main.m */,
+				62CBFC2D19220B8E00808570 /* Azure Maps-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62CBFC4719220B8E00808570 /* Azure MapsTests */ = {
+			isa = PBXGroup;
+			children = (
+				62CBFC4D19220B8E00808570 /* Azure_MapsTests.m */,
+				62CBFC4819220B8E00808570 /* Supporting Files */,
+			);
+			path = "Azure MapsTests";
+			sourceTree = "<group>";
+		};
+		62CBFC4819220B8E00808570 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62CBFC4919220B8E00808570 /* Azure MapsTests-Info.plist */,
+				62CBFC4A19220B8E00808570 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62CBFC1B19220B8E00808570 /* Azure Maps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62CBFC5119220B8E00808570 /* Build configuration list for PBXNativeTarget "Azure Maps" */;
+			buildPhases = (
+				62CBFC1819220B8E00808570 /* Sources */,
+				62CBFC1919220B8E00808570 /* Frameworks */,
+				62CBFC1A19220B8E00808570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Azure Maps";
+			productName = "Azure Maps";
+			productReference = 62CBFC1C19220B8E00808570 /* Azure Maps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62CBFC3F19220B8E00808570 /* Azure MapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62CBFC5419220B8E00808570 /* Build configuration list for PBXNativeTarget "Azure MapsTests" */;
+			buildPhases = (
+				62CBFC3C19220B8E00808570 /* Sources */,
+				62CBFC3D19220B8E00808570 /* Frameworks */,
+				62CBFC3E19220B8E00808570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62CBFC4619220B8E00808570 /* PBXTargetDependency */,
+			);
+			name = "Azure MapsTests";
+			productName = "Azure MapsTests";
+			productReference = 62CBFC4019220B8E00808570 /* Azure MapsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62CBFC1419220B8D00808570 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Claus Höfele";
+				TargetAttributes = {
+					62CBFC3F19220B8E00808570 = {
+						TestTargetID = 62CBFC1B19220B8E00808570;
+					};
+				};
+			};
+			buildConfigurationList = 62CBFC1719220B8D00808570 /* Build configuration list for PBXProject "Azure Maps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62CBFC1319220B8D00808570;
+			productRefGroup = 62CBFC1D19220B8E00808570 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62CBFC1B19220B8E00808570 /* Azure Maps */,
+				62CBFC3F19220B8E00808570 /* Azure MapsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62CBFC1A19220B8E00808570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CBFC3619220B8E00808570 /* Main_iPad.storyboard in Resources */,
+				62CBFC3B19220B8E00808570 /* Images.xcassets in Resources */,
+				62CBFC3319220B8E00808570 /* Main_iPhone.storyboard in Resources */,
+				62CBFC2A19220B8E00808570 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62CBFC3E19220B8E00808570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CBFC4C19220B8E00808570 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62CBFC1819220B8E00808570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CBFC3919220B8E00808570 /* ViewController.m in Sources */,
+				62CBFC3019220B8E00808570 /* AppDelegate.m in Sources */,
+				62CBFC2C19220B8E00808570 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62CBFC3C19220B8E00808570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CBFC4E19220B8E00808570 /* Azure_MapsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62CBFC4619220B8E00808570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62CBFC1B19220B8E00808570 /* Azure Maps */;
+			targetProxy = 62CBFC4519220B8E00808570 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62CBFC2819220B8E00808570 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62CBFC2919220B8E00808570 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		62CBFC3119220B8E00808570 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62CBFC3219220B8E00808570 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		62CBFC3419220B8E00808570 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62CBFC3519220B8E00808570 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		62CBFC4A19220B8E00808570 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62CBFC4B19220B8E00808570 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62CBFC4F19220B8E00808570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62CBFC5019220B8E00808570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62CBFC5219220B8E00808570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Azure Maps/Azure Maps-Prefix.pch";
+				INFOPLIST_FILE = "Azure Maps/Azure Maps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		62CBFC5319220B8E00808570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Azure Maps/Azure Maps-Prefix.pch";
+				INFOPLIST_FILE = "Azure Maps/Azure Maps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		62CBFC5519220B8E00808570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Azure Maps.app/Azure Maps";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Azure Maps/Azure Maps-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Azure MapsTests/Azure MapsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		62CBFC5619220B8E00808570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Azure Maps.app/Azure Maps";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Azure Maps/Azure Maps-Prefix.pch";
+				INFOPLIST_FILE = "Azure MapsTests/Azure MapsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62CBFC1719220B8D00808570 /* Build configuration list for PBXProject "Azure Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62CBFC4F19220B8E00808570 /* Debug */,
+				62CBFC5019220B8E00808570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62CBFC5119220B8E00808570 /* Build configuration list for PBXNativeTarget "Azure Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62CBFC5219220B8E00808570 /* Debug */,
+				62CBFC5319220B8E00808570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62CBFC5419220B8E00808570 /* Build configuration list for PBXNativeTarget "Azure MapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62CBFC5519220B8E00808570 /* Debug */,
+				62CBFC5619220B8E00808570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62CBFC1419220B8D00808570 /* Project object */;
+}
