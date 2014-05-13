@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  AddItemViewController.h
 //  Azure Maps
 //
 //  Created by Claus Höfele on 13.05.14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (nonatomic) UIWindow *window;
+@interface AddItemViewController : UIViewController
 
 @end

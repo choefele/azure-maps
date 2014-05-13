@@ -23,6 +23,10 @@
 		62CBFC4E19220B8E00808570 /* Azure_MapsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBFC4D19220B8E00808570 /* Azure_MapsTests.m */; };
 		62CBFC5819220BA400808570 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CBFC5719220BA400808570 /* MapKit.framework */; };
 		62CBFC5A192211EC00808570 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CBFC59192211EC00808570 /* WindowsAzureMobileServices.framework */; };
+		62CBFC5D192212EA00808570 /* UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBFC5C192212EA00808570 /* UserService.m */; };
+		62CBFC60192215EF00808570 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBFC5F192215EF00808570 /* LoginViewController.m */; };
+		62CBFC631922160E00808570 /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBFC621922160E00808570 /* AddItemViewController.m */; };
+		62CBFC661922279C00808570 /* MAKRAzureMapsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBFC651922279C00808570 /* MAKRAzureMapsService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,14 @@
 		62CBFC4D19220B8E00808570 /* Azure_MapsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Azure_MapsTests.m; sourceTree = "<group>"; };
 		62CBFC5719220BA400808570 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		62CBFC59192211EC00808570 /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
+		62CBFC5B192212EA00808570 /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
+		62CBFC5C192212EA00808570 /* UserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserService.m; sourceTree = "<group>"; };
+		62CBFC5E192215EF00808570 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		62CBFC5F192215EF00808570 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		62CBFC611922160E00808570 /* AddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
+		62CBFC621922160E00808570 /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
+		62CBFC641922279C00808570 /* MAKRAzureMapsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAKRAzureMapsService.h; sourceTree = "<group>"; };
+		62CBFC651922279C00808570 /* MAKRAzureMapsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAKRAzureMapsService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +137,14 @@
 				62CBFC3119220B8E00808570 /* Main_iPhone.storyboard */,
 				62CBFC3719220B8E00808570 /* ViewController.h */,
 				62CBFC3819220B8E00808570 /* ViewController.m */,
+				62CBFC5E192215EF00808570 /* LoginViewController.h */,
+				62CBFC5F192215EF00808570 /* LoginViewController.m */,
+				62CBFC611922160E00808570 /* AddItemViewController.h */,
+				62CBFC621922160E00808570 /* AddItemViewController.m */,
+				62CBFC5B192212EA00808570 /* UserService.h */,
+				62CBFC5C192212EA00808570 /* UserService.m */,
+				62CBFC641922279C00808570 /* MAKRAzureMapsService.h */,
+				62CBFC651922279C00808570 /* MAKRAzureMapsService.m */,
 				62CBFC3A19220B8E00808570 /* Images.xcassets */,
 				62CBFC2619220B8E00808570 /* Supporting Files */,
 			);
@@ -258,8 +278,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				62CBFC3919220B8E00808570 /* ViewController.m in Sources */,
+				62CBFC631922160E00808570 /* AddItemViewController.m in Sources */,
+				62CBFC661922279C00808570 /* MAKRAzureMapsService.m in Sources */,
 				62CBFC3019220B8E00808570 /* AppDelegate.m in Sources */,
 				62CBFC2C19220B8E00808570 /* main.m in Sources */,
+				62CBFC5D192212EA00808570 /* UserService.m in Sources */,
+				62CBFC60192215EF00808570 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
