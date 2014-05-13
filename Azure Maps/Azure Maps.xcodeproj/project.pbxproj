@@ -14,7 +14,6 @@
 		62CBFC2C19220B8E00808570 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBFC2B19220B8E00808570 /* main.m */; };
 		62CBFC3019220B8E00808570 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBFC2F19220B8E00808570 /* AppDelegate.m */; };
 		62CBFC3319220B8E00808570 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62CBFC3119220B8E00808570 /* Main_iPhone.storyboard */; };
-		62CBFC3619220B8E00808570 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62CBFC3419220B8E00808570 /* Main_iPad.storyboard */; };
 		62CBFC3919220B8E00808570 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBFC3819220B8E00808570 /* ViewController.m */; };
 		62CBFC3B19220B8E00808570 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62CBFC3A19220B8E00808570 /* Images.xcassets */; };
 		62CBFC4219220B8E00808570 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CBFC4119220B8E00808570 /* XCTest.framework */; };
@@ -22,6 +21,8 @@
 		62CBFC4419220B8E00808570 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CBFC2319220B8E00808570 /* UIKit.framework */; };
 		62CBFC4C19220B8E00808570 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62CBFC4A19220B8E00808570 /* InfoPlist.strings */; };
 		62CBFC4E19220B8E00808570 /* Azure_MapsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBFC4D19220B8E00808570 /* Azure_MapsTests.m */; };
+		62CBFC5819220BA400808570 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CBFC5719220BA400808570 /* MapKit.framework */; };
+		62CBFC5A192211EC00808570 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CBFC59192211EC00808570 /* WindowsAzureMobileServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +47,6 @@
 		62CBFC2E19220B8E00808570 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		62CBFC2F19220B8E00808570 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		62CBFC3219220B8E00808570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		62CBFC3519220B8E00808570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		62CBFC3719220B8E00808570 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		62CBFC3819220B8E00808570 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		62CBFC3A19220B8E00808570 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +55,8 @@
 		62CBFC4919220B8E00808570 /* Azure MapsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Azure MapsTests-Info.plist"; sourceTree = "<group>"; };
 		62CBFC4B19220B8E00808570 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62CBFC4D19220B8E00808570 /* Azure_MapsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Azure_MapsTests.m; sourceTree = "<group>"; };
+		62CBFC5719220BA400808570 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		62CBFC59192211EC00808570 /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +64,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62CBFC5819220BA400808570 /* MapKit.framework in Frameworks */,
 				62CBFC2219220B8E00808570 /* CoreGraphics.framework in Frameworks */,
 				62CBFC2419220B8E00808570 /* UIKit.framework in Frameworks */,
 				62CBFC2019220B8E00808570 /* Foundation.framework in Frameworks */,
+				62CBFC5A192211EC00808570 /* WindowsAzureMobileServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +107,8 @@
 		62CBFC1E19220B8E00808570 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62CBFC59192211EC00808570 /* WindowsAzureMobileServices.framework */,
+				62CBFC5719220BA400808570 /* MapKit.framework */,
 				62CBFC1F19220B8E00808570 /* Foundation.framework */,
 				62CBFC2119220B8E00808570 /* CoreGraphics.framework */,
 				62CBFC2319220B8E00808570 /* UIKit.framework */,
@@ -117,7 +123,6 @@
 				62CBFC2E19220B8E00808570 /* AppDelegate.h */,
 				62CBFC2F19220B8E00808570 /* AppDelegate.m */,
 				62CBFC3119220B8E00808570 /* Main_iPhone.storyboard */,
-				62CBFC3419220B8E00808570 /* Main_iPad.storyboard */,
 				62CBFC3719220B8E00808570 /* ViewController.h */,
 				62CBFC3819220B8E00808570 /* ViewController.m */,
 				62CBFC3A19220B8E00808570 /* Images.xcassets */,
@@ -231,7 +236,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62CBFC3619220B8E00808570 /* Main_iPad.storyboard in Resources */,
 				62CBFC3B19220B8E00808570 /* Images.xcassets in Resources */,
 				62CBFC3319220B8E00808570 /* Main_iPhone.storyboard in Resources */,
 				62CBFC2A19220B8E00808570 /* InfoPlist.strings in Resources */,
@@ -292,14 +296,6 @@
 				62CBFC3219220B8E00808570 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		62CBFC3419220B8E00808570 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				62CBFC3519220B8E00808570 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		62CBFC4A19220B8E00808570 /* InfoPlist.strings */ = {
@@ -390,10 +386,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Azure Maps/Azure Maps-Prefix.pch";
 				INFOPLIST_FILE = "Azure Maps/Azure Maps-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,10 +404,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Azure Maps/Azure Maps-Prefix.pch";
 				INFOPLIST_FILE = "Azure Maps/Azure Maps-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
