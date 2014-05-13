@@ -27,6 +27,7 @@
 		62CBFC60192215EF00808570 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBFC5F192215EF00808570 /* LoginViewController.m */; };
 		62CBFC631922160E00808570 /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBFC621922160E00808570 /* AddItemViewController.m */; };
 		62CBFC661922279C00808570 /* MAKRAzureMapsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CBFC651922279C00808570 /* MAKRAzureMapsService.m */; };
+		62CBFC681922522E00808570 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CBFC671922522E00808570 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		62CBFC621922160E00808570 /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
 		62CBFC641922279C00808570 /* MAKRAzureMapsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAKRAzureMapsService.h; sourceTree = "<group>"; };
 		62CBFC651922279C00808570 /* MAKRAzureMapsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAKRAzureMapsService.m; sourceTree = "<group>"; };
+		62CBFC671922522E00808570 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62CBFC681922522E00808570 /* CoreLocation.framework in Frameworks */,
 				62CBFC5819220BA400808570 /* MapKit.framework in Frameworks */,
 				62CBFC2219220B8E00808570 /* CoreGraphics.framework in Frameworks */,
 				62CBFC2419220B8E00808570 /* UIKit.framework in Frameworks */,
@@ -119,6 +122,7 @@
 		62CBFC1E19220B8E00808570 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62CBFC671922522E00808570 /* CoreLocation.framework */,
 				62CBFC59192211EC00808570 /* WindowsAzureMobileServices.framework */,
 				62CBFC5719220BA400808570 /* MapKit.framework */,
 				62CBFC1F19220B8E00808570 /* Foundation.framework */,

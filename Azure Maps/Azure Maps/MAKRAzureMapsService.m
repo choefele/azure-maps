@@ -55,10 +55,10 @@ NSString *const MAKRAzureMapsUserSignedInNotification = @"MAKRAzureMapsUserSigne
 		self.client = [newClient clientWithFilter:self];
 		
 		// Create an MSTable instance to allow us to work with the TodoItem table
-		self.itemTable = [self.client tableWithName:@"Item"];
+		self.itemTable = [self.client tableWithName:@"items"];
 		
-		self.containersTable = [self.client tableWithName:@"BlobContainers"];
-		self.blobsTable = [self.client tableWithName:@"BlobBlobs"];
+		self.containersTable = [self.client tableWithName:@"containers"];
+		self.blobsTable = [self.client tableWithName:@"blobblobs"];
 		
 		self.items = [[NSMutableArray alloc] init];
 		self.busyCount = 0;
